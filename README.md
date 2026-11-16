@@ -48,6 +48,21 @@
 
 > ⚠️ รองรับ **Python 3.12 เท่านั้น** (ให้สอดคล้องกับ `mediapipe==0.10.21` และ `opencv-contrib-python==4.11.0.86`)
 
+### 📥 ดาวน์โหลด Python 3.12
+
+- ⬇️ **[ดาวน์โหลด Python 3.12.10 สำหรับ Windows (64-bit)](https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe)** — ไฟล์ติดตั้งโดยตรง ขนาดประมาณ 26 MB
+- 📄 [หน้ารายละเอียดรุ่น Python 3.12.10](https://www.python.org/downloads/release/python-31210/) · 🔎 [รายการ Python ทั้งหมดสำหรับ Windows](https://www.python.org/downloads/windows/)
+
+ตอนติดตั้งให้ติ๊ก **"Use admin privileges / py launcher"** (เพื่อให้คำสั่ง `py -3.12` ใช้งานได้) และ **"Add python.exe to PATH"** จากนั้นเปิด cmd ใหม่แล้วตรวจสอบด้วย:
+
+```bat
+py -3.12 --version
+```
+
+> 3.12.10 เป็นรุ่น 3.12 ล่าสุดที่หน้า Windows ของ python.org มีไฟล์ติดตั้งให้ ณ ตอนที่เขียน — Python รุ่นที่สูงกว่า (เช่น 3.13 / 3.14) **ใช้กับโปรเจกต์นี้ไม่ได้**
+
+### ติดตั้งโปรเจกต์
+
 เปิด **Command Prompt (cmd)** ในโฟลเดอร์โปรเจกต์ แล้วรันตามลำดับ:
 
 ```bat

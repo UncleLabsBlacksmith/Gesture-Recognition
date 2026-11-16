@@ -15,6 +15,7 @@
   <img src="https://img.shields.io/badge/OpenCV-4.11.0.86-5C3EE8?logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/MediaPipe-0.10.21-0097A7" alt="MediaPipe">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white" alt="Windows">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License"></a>
 </p>
 
 ---
@@ -216,6 +217,7 @@ python tony_stark_interface.py
 ```
 Gesture-Recognition/
 ├── tony_stark_interface.py  # ⭐ โปรแกรมหลัก (JARVIS + Gesture Mouse + UI)
+├── LICENSE                  # MIT License
 ├── gestures.svg             # ภาพท่ามือที่แสดงในหน้า Help
 ├── gestures_v3.svg          # ภาพท่ามือชุดเดิมของ gesture_v3.py (สำรองไว้)
 ├── jarvis_v1.py             # JARVIS เวอร์ชันบรรทัดคำสั่งแบบเดิม (ใช้ Hermes)
@@ -287,4 +289,64 @@ Gesture-Recognition/
 
 ## 📄 License
 
-ยังไม่ได้กำหนด — แนะนำให้เพิ่มไฟล์ `LICENSE` (เช่น MIT) ก่อนเผยแพร่
+เผยแพร่ภายใต้ [MIT License](LICENSE) — ใช้ แก้ไข และแจกจ่ายต่อได้อย่างอิสระ โดยคงข้อความลิขสิทธิ์และใบอนุญาตไว้
+
+---
+
+<h2 align="center">🎓 อยากทำ Tony Stark–Style AR Interface เองใช่ไหม?</h2>
+
+<p align="center">
+  <a href="https://uncle-engineer.com/course/gesture-ar-development/">
+    <img src="tony-stark-interface.png" alt="AR Glasses & Gesture Recognition Development" width="360">
+  </a>
+</p>
+
+<h3 align="center">
+  <a href="https://uncle-engineer.com/course/gesture-ar-development/">AR Glasses & Gesture Recognition Development</a><br>
+  <sub>Tony Stark–Style AR Interface</sub>
+</h3>
+
+<p align="center">
+  คอร์สออนไลน์ที่พาคุณก้าวเข้าสู่โลก <b>AR + AI</b> ตั้งแต่ศูนย์ — ไม่จำเป็นต้องมีประสบการณ์พัฒนา AR มาก่อน<br>
+  ทำ <b>Workshop ทุกตอน</b> จนได้แอป AR ที่ควบคุมด้วยท่ามือและทดสอบบนแว่น <b>XREAL ONE</b> ด้วยตัวเอง
+</p>
+
+### 🔥 สิ่งที่จะได้เรียน (10 EP)
+
+| EP | หัวข้อ |
+|---|---|
+| 01 | Introduction to AR Glasses & Spatial Computing — AR/VR/MR/XR, XREAL ONE & XREAL EYE, 3DoF/6DoF |
+| 02 | Getting Started with Unity & XREAL SDK — เซ็ตอัป Unity, XREAL SDK, C# เบื้องต้น (Hello AR World) |
+| 03 | 3D Objects & Spatial Interaction — โมเดล 3D, ตำแหน่ง/การหมุน/ขนาด, world tracking, spatial anchor |
+| 04 | Designing Spatial User Interface — AR UI/UX, หน้าต่างลอย, ปุ่ม, แอนิเมชัน |
+| 05 | **Computer Vision & Hand Tracking** — Python, OpenCV, เว็บแคม, MediaPipe 21 hand landmarks |
+| 06 | **AI Gesture Recognition** — ระยะ/มุมนิ้ว, จำแนกท่า Open Palm · Fist · Pinch · Pointing |
+| 07 | **Gesture-Controlled AR Applications** — เชื่อม Python ↔ Unity ผ่าน UDP/WebSocket, Pinch to Select, Swipe to Navigate |
+| 08 | Building Interactive Spatial Experiences — มินิเกม AR, ฟิสิกส์, แอนิเมชัน, เสียง |
+| 09 | **AI-Powered Spatial Applications** — AI API, ผู้ช่วย AI, รู้จำเสียงพูด, Text-to-Speech |
+| 10 | Final Project — ออกแบบ สร้าง ทดสอบบน XREAL ONE และนำเสนอผลงาน |
+
+> 💡 เทคนิคที่ใช้ในโปรเจกต์นี้ — MediaPipe hand tracking, การจำแนกท่ามือ, ผู้ช่วย AI และ TTS/STT — ตรงกับเนื้อหา EP.05–07 และ EP.09 ของคอร์ส
+
+**เทคโนโลยีที่ใช้:** XREAL ONE · XREAL EYE · Unity · C# · XREAL SDK · Python · OpenCV · MediaPipe · WebSocket · AI API
+
+### 📅 รูปแบบการเรียน
+
+- 🖥️ เรียนออนไลน์ผ่านไลฟ์ในกลุ่มเฟซบุ๊ก และดูย้อนหลังได้ทุกตอนหลังไลฟ์จบ
+- 🗓️ 10 สัปดาห์ · สัปดาห์ละ 1 ครั้ง ครั้งละ 2 ชั่วโมง · ทุกวันพฤหัสบดีช่วงค่ำ
+- 🚀 รอบที่เปิดรับสมัครเริ่มเรียน **วันพฤหัสบดีที่ 28 มกราคม 2570 เวลา 19.15 น.**
+- 🏷️ ค่าลงทะเบียนปกติ 3,960 บาท · มีโปรโมชัน Early Bird สำหรับ 50 คนแรกเหลือเพียง 990 บาท
+
+
+
+<p align="center">
+  <a href="https://uncle-engineer.com/course/gesture-ar-development/">
+    <b>👉 ดูรายละเอียดและสมัครเรียนได้ที่นี่ 👈</b>
+  </a>
+  <br><br>
+  <sub>https://uncle-engineer.com/course/gesture-ar-development/</sub>
+</p>
+
+<p align="center">
+  สอบถามเพิ่มเติม: เพจเฟซบุ๊ก <b>ลุงวิศวกร สอนคำนวณ</b> · LINE <b>@uncleengineer</b>
+</p>
